@@ -61,12 +61,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-		          <excludes>
-		            <exclude>
-		              <groupId>org.projectlombok</groupId>
-		              <artifactId>lombok</artifactId>
-		            </exclude>
-		          </excludes>
+					<source>11</source>
+        			<target>11</target>
+					<excludes>
+					  <exclude>
+					    <groupId>org.projectlombok</groupId>
+					    <artifactId>lombok</artifactId>
+					  </exclude>
+					</excludes>
 		        </configuration>
 			</plugin>
 		</plugins>
